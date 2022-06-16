@@ -3,5 +3,5 @@ import { AwpPoint } from "../../AwpPoint";
 
 export type AwpGluePath<POINT extends AwpPoint = AwpPoint> = {
   pathType: "glue";
-  glueGroup: string;
+  glueGroup: "primary" | "secondary";
 } & AwpPathCommon<POINT>;
