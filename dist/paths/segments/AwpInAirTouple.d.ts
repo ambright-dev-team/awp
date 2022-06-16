@@ -1,5 +1,5 @@
-import { AwpPoint } from "../../AwpPoint";
-import { AwpUsi } from "./AwpUsi";
+import { AwpPoint } from "../../AwpPoint.js";
+import { AwpUsi } from "./AwpUsi.js";
 export declare type AwpInAirTouple = {
     USI: AwpUsi;
     start: AwpPoint;

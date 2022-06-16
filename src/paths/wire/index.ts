@@ -1,1 +1,1 @@
-export { AwpWirePath } from "./AwpWirePath";
+export { AwpWirePath } from "./AwpWirePath.js";

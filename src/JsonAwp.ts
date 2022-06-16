@@ -1,9 +1,9 @@
-import { AwpPoint } from "./AwpPoint";
-import { AwpCanvasItem } from "./canvas/AwpCanvasItem";
-import { BaseJsonAwp } from "./BaseJsonAwp";
-import { AwpWirePath } from "./paths/wire/AwpWirePath";
-import { AwpGluePath } from "./paths/glue/AwpGluePath";
-import { AwpBoard } from "./boards/AwpBoard";
+import { AwpPoint } from "./AwpPoint.js";
+import { AwpCanvasItem } from "./canvas/AwpCanvasItem.js";
+import { BaseJsonAwp } from "./BaseJsonAwp.js";
+import { AwpWirePath } from "./paths/wire/AwpWirePath.js";
+import { AwpGluePath } from "./paths/glue/AwpGluePath.js";
+import { AwpBoard } from "./boards/AwpBoard.js";
 
 export type JsonAwp<
   WIRE_PATH extends AwpWirePath = AwpWirePath,

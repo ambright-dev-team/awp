@@ -1,4 +1,4 @@
-import { BoolString } from "./BoolString";
+import { BoolString } from "./BoolString.js";
 
 export type AwpBoolOptionItem = {
   default: BoolString;

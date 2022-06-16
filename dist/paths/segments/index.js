@@ -1,2 +1,2 @@
-export { AwpSegmentType } from "./AwpSegmentType";
-export { AwpPathType } from "./AwpPathType";
+export { AwpSegmentType } from "./AwpSegmentType.js";
+export { AwpPathType } from "./AwpPathType.js";

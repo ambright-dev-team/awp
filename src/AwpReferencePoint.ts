@@ -1,4 +1,4 @@
-import { AwpPoint } from "./AwpPoint";
+import { AwpPoint } from "./AwpPoint.js";
 
 export type AwpReferencePoint<POINT extends AwpPoint = AwpPoint> = {
   center: POINT;

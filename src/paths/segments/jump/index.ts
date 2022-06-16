@@ -1,2 +1,2 @@
-export { AwpJump } from "./AwpJump";
-export { AwpUPI } from "./AwpUPI";
+export { AwpJump } from "./AwpJump.js";
+export { AwpUPI } from "./AwpUPI.js";

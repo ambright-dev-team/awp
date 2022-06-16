@@ -1,5 +1,5 @@
-import { AwpPoint } from "../AwpPoint";
-import { AwpBoardType } from "./AwpBoardType";
+import { AwpPoint } from "../AwpPoint.js";
+import { AwpBoardType } from "./AwpBoardType.js";
 
 export type AwpBoard<POINT extends AwpPoint = AwpPoint> = {
   /**

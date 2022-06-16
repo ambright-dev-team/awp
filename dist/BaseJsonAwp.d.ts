@@ -1,11 +1,11 @@
-import { AwpPoint } from "./AwpPoint";
-import { AwpReferencePoint } from "./AwpReferencePoint";
-import { AwpCanvasItem } from "./canvas/AwpCanvasItem";
-import { AwpOptions } from "./options/AwpOptions";
-import { OptionalNetlist } from "./OptionalNetlist";
-import { AwpWirePath } from "./paths/wire/AwpWirePath";
-import { AwpGluePath } from "./paths/glue/AwpGluePath";
-import { AwpBoard } from "./boards/AwpBoard";
+import { AwpPoint } from "./AwpPoint.js";
+import { AwpReferencePoint } from "./AwpReferencePoint.js";
+import { AwpCanvasItem } from "./canvas/AwpCanvasItem.js";
+import { AwpOptions } from "./options/AwpOptions.js";
+import { OptionalNetlist } from "./OptionalNetlist.js";
+import { AwpWirePath } from "./paths/wire/AwpWirePath.js";
+import { AwpGluePath } from "./paths/glue/AwpGluePath.js";
+import { AwpBoard } from "./boards/AwpBoard.js";
 export declare type BaseJsonAwp<WIRE_PATH extends AwpWirePath = AwpWirePath, GLUE_PATH extends AwpGluePath = AwpGluePath, BOARD extends AwpBoard = AwpBoard, POINT extends AwpPoint = AwpPoint> = {
     biggestPoint: POINT;
     board: BOARD[];

@@ -1,7 +1,7 @@
-import { AwpUsi } from "./AwpUsi";
-import { AwpInAirTouple } from "./AwpInAirTouple";
-import { AwpLockWiringProcessType } from "./AwpLockWiringProcessType";
-import { AwpPoint } from "../../AwpPoint";
+import { AwpUsi } from "./AwpUsi.js";
+import { AwpInAirTouple } from "./AwpInAirTouple.js";
+import { AwpLockWiringProcessType } from "./AwpLockWiringProcessType.js";
+import { AwpPoint } from "../../AwpPoint.js";
 export declare type AwpSegmentCommon<POINT extends AwpPoint = AwpPoint> = {
     USI: AwpUsi;
     inAir?: AwpInAirTouple[];

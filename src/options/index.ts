@@ -1,4 +1,4 @@
-export { AwpFloatOptionItem } from "./AwpFloatOptionItem";
-export { AwpIntOptionItem } from "./AwpIntOptionItem";
-export { AwpOptions } from "./AwpOptions";
-export { AwpTextOptionItem } from "./AwpTextOptionItem";
+export { AwpFloatOptionItem } from "./AwpFloatOptionItem.js";
+export { AwpIntOptionItem } from "./AwpIntOptionItem.js";
+export { AwpOptions } from "./AwpOptions.js";
+export { AwpTextOptionItem } from "./AwpTextOptionItem.js";

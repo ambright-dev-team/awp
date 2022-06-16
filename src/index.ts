@@ -1,12 +1,12 @@
-export { AwpBoolOptionItem } from "./AwpBoolOptionItem";
-export { AwpPoint } from "./AwpPoint";
-export { AwpReferencePoint } from "./AwpReferencePoint";
-export { BaseJsonAwp } from "./BaseJsonAwp";
-export { BoolString } from "./BoolString";
-export { JsonAwp } from "./JsonAwp";
-export { NumberString } from "./NumberString";
-export { OptionalNetlist } from "./OptionalNetlist";
-export { StaticJsonAwp } from "./StaticJsonAwp";
+export { AwpBoolOptionItem } from "./AwpBoolOptionItem.js";
+export { AwpPoint } from "./AwpPoint.js";
+export { AwpReferencePoint } from "./AwpReferencePoint.js";
+export { BaseJsonAwp } from "./BaseJsonAwp.js";
+export { BoolString } from "./BoolString.js";
+export { JsonAwp } from "./JsonAwp.js";
+export { NumberString } from "./NumberString.js";
+export { OptionalNetlist } from "./OptionalNetlist.js";
+export { StaticJsonAwp } from "./StaticJsonAwp.js";
 
 export * from "./canvas/index.js";
 export * from "./boards/index.js";

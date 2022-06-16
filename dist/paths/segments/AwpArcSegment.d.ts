@@ -1,5 +1,5 @@
-import { AwpSegmentCommon } from "./AwpSegmentCommon";
-import { AwpPoint } from "../../AwpPoint";
+import { AwpSegmentCommon } from "./AwpSegmentCommon.js";
+import { AwpPoint } from "../../AwpPoint.js";
 export declare type AwpArcSegment<POINT extends AwpPoint = AwpPoint> = {
     segmentType: "curve";
     p1: POINT;

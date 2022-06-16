@@ -1,2 +1,2 @@
-export { AwpBoard } from "./AwpBoard";
-export { AwpBoardType } from "./AwpBoardType";
+export { AwpBoard } from "./AwpBoard.js";
+export { AwpBoardType } from "./AwpBoardType.js";

@@ -1,7 +1,7 @@
-import { AwpTextOptionItem } from "./AwpTextOptionItem";
-import { AwpIntOptionItem } from "./AwpIntOptionItem";
-import { AwpBoolOptionItem } from "../AwpBoolOptionItem";
-import { AwpFloatOptionItem } from "./AwpFloatOptionItem";
+import { AwpTextOptionItem } from "./AwpTextOptionItem.js";
+import { AwpIntOptionItem } from "./AwpIntOptionItem.js";
+import { AwpBoolOptionItem } from "../AwpBoolOptionItem.js";
+import { AwpFloatOptionItem } from "./AwpFloatOptionItem.js";
 
 export type AwpOptions = {
   autoRouting: {

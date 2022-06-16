@@ -1,6 +1,6 @@
-import { AwpUPI } from "./AwpUPI";
-import { AwpSegmentCommon } from "../AwpSegmentCommon";
-import { AwpPoint } from "../../../AwpPoint";
+import { AwpUPI } from "./AwpUPI.js";
+import { AwpSegmentCommon } from "../AwpSegmentCommon.js";
+import { AwpPoint } from "../../../AwpPoint.js";
 export declare type AwpJump<POINT extends AwpPoint = AwpPoint> = {
     segmentType: "jump";
     p1: POINT;

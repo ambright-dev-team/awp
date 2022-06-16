@@ -1,3 +1,3 @@
-export { AwpEllipse } from "./AwpEllipse";
-export { AwpPolygon } from "./AwpPolygon";
-export { AwpShape } from "./AwpShape";
+export { AwpEllipse } from "./AwpEllipse.js";
+export { AwpPolygon } from "./AwpPolygon.js";
+export { AwpShape } from "./AwpShape.js";
