@@ -1,11 +1,13 @@
 {
   "name": "@ambright/awp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "git://github.com/ambright-dev-team/awp.git",
   "author": "Ambright",
   "license": "MIT",
   "type": "module",
   "module": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "engines": {
     "yarn": "1.x",
     "node": "16.x"
