@@ -1,7 +1,7 @@
 {
-  "name": "@ambright-dev-team/awp",
+  "name": "@ambright/awp",
   "version": "1.0.0",
-  "repository": "git@github.com:ambright-dev-team/awp.git",
+  "repository": "git://github.com/ambright-dev-team/awp.git",
   "author": "Ambright",
   "license": "MIT",
   "type": "module",
