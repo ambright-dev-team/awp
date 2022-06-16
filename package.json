@@ -1,0 +1,21 @@
+{
+  "name": "@ambright/awp",
+  "version": "1.0.0",
+  "repository": "git@github.com:ambright-dev-team/awp.git",
+  "author": "Ambright",
+  "license": "MIT",
+  "type": "module",
+  "module": "./dist/index.js",
+  "engines": {
+    "yarn": "1.x",
+    "node": "16.x"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn build"
+  }
+}
