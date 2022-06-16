@@ -1,3 +1,3 @@
-export * from "./wire/index";
-export * from "./segments/index";
-export * from "./glue/index";
+export * from "./wire/index.js";
+export * from "./segments/index.js";
+export * from "./glue/index.js";

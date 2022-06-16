@@ -1,1 +1,1 @@
-export * from "./shape/index";
+export * from "./shape/index.js";
