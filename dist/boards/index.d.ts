@@ -1,2 +1,2 @@
 export { AwpBoard } from "./AwpBoard";
-export { BoardType } from "./BoardType";
+export { AwpBoardType } from "./AwpBoardType";

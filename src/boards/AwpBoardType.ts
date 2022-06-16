@@ -1,4 +1,4 @@
-export type BoardType =
+export type AwpBoardType =
   | "led"
   | "misc"
   | "experimental"

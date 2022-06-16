@@ -1,5 +1,5 @@
 import { AwpPoint } from "../AwpPoint";
-import { BoardType } from "./BoardType";
+import { AwpBoardType } from "./AwpBoardType";
 
 export type AwpBoard<POINT extends AwpPoint = AwpPoint> = {
   /**
@@ -10,7 +10,7 @@ export type AwpBoard<POINT extends AwpPoint = AwpPoint> = {
   /**
    * For led26 the boardType is led
    */
-  boardType: BoardType;
+  boardType: AwpBoardType;
   /**
    * For led26 the typeId is 26
    */

@@ -5,3 +5,5 @@ export { AwpLockWiringProcessType } from "./AwpLockWiringProcessType";
 export { AwpSegment } from "./AwpSegment";
 export { AwpSegmentCommon } from "./AwpSegmentCommon";
 export { AwpUsi } from "./AwpUsi";
+export { AwpSegmentType } from "./AwpSegmentType";
+export { AwpPathType } from "./AwpPathType";

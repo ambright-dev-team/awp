@@ -1,1 +1,1 @@
-export {AwpGluePath} from "./AwpGluePath"
+export { AwpGluePath } from "./AwpGluePath";
