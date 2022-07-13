@@ -10,7 +10,7 @@
   "types": "./dist/index.d.ts",
   "engines": {
     "yarn": "1.x",
-    "node": "16.x|18.x"
+    "node": "16.x || 18.x"
   },
   "devDependencies": {
     "prettier": "^2.7.1",
